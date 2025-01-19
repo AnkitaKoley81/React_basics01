@@ -9,7 +9,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store ={store}>
       <App /> 
-     {/* we want to accesible store over the entire application  */}
+     {/* we want to accesible store over the entire application ,-->ar fole app component and baki component ra store ke access korte parbe */}
     </Provider> ,
   </StrictMode>,  
 )
